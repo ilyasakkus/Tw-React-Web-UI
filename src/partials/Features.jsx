@@ -31,21 +31,12 @@ function Features() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
 
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
-          </div>
-
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-              </div>
+             
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
@@ -54,7 +45,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Mezun Kart</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -69,7 +60,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Mezun Hakları</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -84,7 +75,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Bağış Yap</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -112,8 +103,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src="https://www.turkiyemsdernegi.org/wp-content/uploads/2019/02/bagis.png" width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -129,8 +119,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src="https://png.pngitem.com/pimgs/s/201-2018517_grey-stripe-wrap-alumni-icon-hd-png-download.png" width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -146,8 +135,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src="https://feedingsouthflorida.org/wp-content/uploads/2018/12/ico-donations.png" width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
               </div>
@@ -156,7 +144,107 @@ function Features() {
           </div >
 
         </div >
+
+      <div class="grid grid-cols-3 gap-8">
+  <div><h2 class="text-cyan-900 text-xl font-medium mb-2 underline hover:decoration-4">Etkinlikler</h2><div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Etkinlik 1</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-cyan-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
+    </div>
+  </div>
+</div>
+<br></br>
+<div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Etkinlik 2</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-cyan-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
+    </div>
+  </div>
+</div>
+</div>
+  <div><h3 class="text-cyan-900 text-xl font-medium mb-2 underline hover:decoration-4">Haberler</h3><div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Haber 1</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
+    </div>
+  </div>
+</div>
+<br></br>
+<div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Haber 2</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
+    </div>
+  </div>
+</div></div>
+  <div><h3 class="text-cyan-900 text-xl font-medium mb-2 underline hover:decoration-4">Söyleşiler</h3><div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Söyleşi 1</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı
+      </button>
+    </div>
+  </div>
+</div>
+<br></br>
+<div class="flex justify-center">
+  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+    </a>
+    <div class="p-6">
+      <h5 class="text-gray-900 text-xl font-medium mb-2">Söyleşi</h5>
+      <p class="text-gray-700 text-base mb-4">
+        Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
+    </div>
+  </div>
+</div></div>
+
+</div>
       </div >
+      
     </section >
   );
 }
