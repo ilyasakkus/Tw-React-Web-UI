@@ -59,7 +59,8 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ['Inter', 'sans-serif'],
+        futura: ['Futura', 'sans-serif']
       },
       fontSize: {
         xs: '0.75rem',
@@ -132,10 +133,15 @@ module.exports = {
     translate: ['responsive', 'hover', 'focus', 'group-hover'],
     boxShadow: ['responsive', 'hover', 'focus', 'focus-within'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+    display: ['responsive', 'group-hover', 'group-focus'],
+    gridAutoFlow: ['responsive'],
+
+    
   },
   plugins: [
     require('@tailwindcss/forms'),
     require('tw-elements/dist/plugin'),
+    require('daisyui'),
 
   ],
 };
