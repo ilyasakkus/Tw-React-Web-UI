@@ -1,6 +1,6 @@
 function HeroHome() {
   return (
-    <section className="relative mx-16 mt-24 grid sm:grid-flow-row-dense md:grid-flow-row-dense lg:grid-flow-row-dense xl:grid-flow-row-dense" >      
+    <section className="relative mx-12 mt-24 grid sm:grid-flow-col md:grid-flow-row-dense lg:grid-flow-row-dense xl:grid-flow-col" >      
   <div id="carouselDarkVariant"
   class="carousel slide carousel-fade carousel-dark relative rounded-lg"
   data-bs-ride="carousel">
