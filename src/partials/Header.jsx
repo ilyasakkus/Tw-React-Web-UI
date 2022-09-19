@@ -136,7 +136,7 @@ function Header() {
         </ul>
       </li>    </ul>
   </div>
-  <div className="navbar-end flex space-x-4 ">
+  <div className="navbar-end flex space-x-4 xs: text-xs sm:text-xs md:text-sm">
     <a href="/" className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-3 rounded">Kayıt Ol</a>
     <a href="/" className="bg-amber-500  hover:bg-amber-600 text-white font-bold py-2 px-3 rounded">Giriş Yap</a>
 
