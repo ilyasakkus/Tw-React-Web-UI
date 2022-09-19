@@ -1,6 +1,6 @@
 function HeroHome() {
   return (
-    <section className="relative mx-12 mt-24 grid sm:grid-flow-col md:grid-flow-row-dense lg:grid-flow-row-dense xl:grid-flow-col" >      
+    <section className="relative mx-12 mt-24 lg:flex lg:items-center lg:w-auto grid sm:grid-flow-col md:grid-flow-row-dense lg:grid-flow-row-dense xl:grid-flow-col" >      
   <div id="carouselDarkVariant"
   class="carousel slide carousel-fade carousel-dark relative rounded-lg"
   data-bs-ride="carousel">
@@ -78,7 +78,7 @@ function HeroHome() {
     <span class="visually-hidden">Sonraki</span>
   </button>
 </div>
-<div class="bg-gray-100 col-span-auto"><div class="flex justify-center ">
+<div class="bg-gray-100 col-span-auto w-full"><div class="flex justify-center w-full ">
   <div class="block p-6 rounded-lg lg:shadow-xl focus:shadow-outline bg-gray-200 max-w-sm ">
     <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Mezun Kartı Talebi</h5>
     <p class="text-gray-700 text-base mb-4">
@@ -88,7 +88,7 @@ function HeroHome() {
     <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Başvur!</button>
   </div>
 </div>
-<br></br><div class="flex justify-center">
+<br></br><div class="flex justify-center w-full">
   <div class="block p-6 rounded-lg lg:shadow-xl focus:shadow-outline bg-gray-200 max-w-sm">
     <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2"> İNÜ Vakfına Bağış</h5>
     <p class="text-gray-700 text-base mb-4">
