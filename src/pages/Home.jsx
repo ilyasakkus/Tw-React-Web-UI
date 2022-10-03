@@ -24,9 +24,9 @@ function Home() {
 
 </div>
 <section class="bg-cyan-700">
-    <div class="container mx-auto grid grid-cols-2 gap-8 md:grid-cols-3 py-8 text-center">
+    <div class="container mx-auto grid grid-cols-2 gap-8 md:grid-cols-3 py-8 text-center ">
         <div>
-            <h5 class="text-5xl font-bold text-white sm:text-sm md:text-base">
+            <h5 class="font-bold text-white sm:text-base md:text-base lg:text-4xl">
                 <span class="inline text-white">
                     21.709
                 </span>
@@ -38,7 +38,7 @@ function Home() {
 Önlisans Mezunu            </p>
         </div>
         <div>
-            <h5 class="text-5xl font-bold text-white sm:text-sm md:text-base">
+            <h5 class="font-bold text-white sm:text-base md:text-base lg:text-4xl">
                 <span class="inline text-white">
                     130.000
                 </span>
@@ -51,7 +51,7 @@ Lisans Mezunu            </p>
         </div>
         
         <div>
-            <h5 class="text-5xl font-bold text-white sm:text-sm md:text-base">
+            <h5 class="font-bold text-white sm:text-base md:text-base lg:text-4xl">
                 <span class="inline text-white">
                     18.000
                 </span>
