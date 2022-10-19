@@ -25,7 +25,7 @@ function Home() {
   <div class="divider"></div> 
 
 </div>
-<section class="bg-cyan-700">
+<section class="bg-inonu-200">
     <div class="container mx-auto grid grid-cols-2 gap-8 md:grid-cols-3 py-8 text-center ">
         <div>
             <h5 class="font-bold text-white sm:text-base md:text-base lg:text-3xl">
