@@ -2,7 +2,7 @@ function HeroHome() {
   return (
     <section className="relative lg:mx-12 lg:mt-20 sm:mx-0 sm:mt-24 md: mt-24 lg:flex lg:items-center lg:w-auto grid sm:grid-flow-col md:grid-flow-row-dense lg:grid-flow-row-dense xl:grid-flow-col" >      
   <div id="carouselDarkVariant"
-  class="carousel slide carousel-fade carousel-dark relative rounded-lg lg:mt-4 lg: mb-4"
+  class="carousel slide carousel-fade carousel-dark relative rounded-2xl lg:mt-4 lg: mb-4"
   data-bs-ride="carousel">
   <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
     <button
