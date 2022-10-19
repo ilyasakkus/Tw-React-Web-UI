@@ -130,7 +130,7 @@ module.exports = {
         '-1': '-1',
       },
       backgroundImage: {
-        'hero': "url('./src/images/bg.svg')",
+        'hero': "url('/src/images/bg.svg')",
       },
       backgroundColor: {
         'hero': '#5a7290',
