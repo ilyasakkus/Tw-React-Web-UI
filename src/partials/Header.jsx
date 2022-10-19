@@ -15,7 +15,7 @@ function Header() {
   }, [top]);  
 
   return (
-    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white backdrop-blur-sm shadow-lg'}`}>
+    <header className={`fixed w-full bg-gray-200 z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white backdrop-blur-sm shadow-lg'}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
 
@@ -86,18 +86,22 @@ function Header() {
         </li></ul>
     </div>
     <Link to="/" className="block w-full h-full" aria-label="İnönü">
-              <img className="h-12 w-auto" src="https://www.inonu.edu.tr/img/logo.d80bb302.png" alt="İnönü Mezun" />
+              <img className="w-auto" src="./src/images/logo.png" alt="İnönü Mezun" />
             </Link>  </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
     <li tabindex={0}>
         <a>
-          Mezun Koordinatörlüğü
+          Koordinatörlük
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
+          <li><a>Hakkımızda</a></li>
+          <li><a>Yönetim</a></li>
+          <li><a>Vizyon</a></li>
+          <li><a>Misyon</a></li>
+          <li><a>Organizasyon Şeması</a></li>
+
         </ul>
       </li>
       <li tabindex={0}>
@@ -106,8 +110,11 @@ function Header() {
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
+          <li><a>Mezun Bilgi Sistemi</a></li>
+          <li><a>Mezun Akademi</a></li>
+          <li><a>Mezun Platformu</a></li>
+          <li><a>İş ve Staj</a></li>
+
         </ul>
       </li>
 
@@ -117,8 +124,13 @@ function Header() {
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
+          <li><a>Girişimcilik Merkezi</a></li>
+          <li><a>Mezun Belge Talep</a></li>
+          <li><a>Mezun Kimlik Kartı</a></li>
+          <li><a>Kariyer Destek</a></li>
+          <li><a>Sosyal Tesisler</a></li>
+          <li><a>Teknokent</a></li>
+
         </ul>
       </li>
       <li tabindex={0}>
@@ -127,12 +139,9 @@ function Header() {
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Submenu 1 </a>
+          <li><a>Hakkında</a>
           </li>
-          <li><a>Submenu 2</a></li>
-          <li><a>Submenu 1</a>
-          </li>
-          <li><a>Submenu 2</a></li>
+          <li><a>Bağış Yap</a></li>
         </ul>
       </li>    </ul>
   </div>

@@ -81,7 +81,7 @@ function Features() {
       </p>
       <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
       <div class="card-actions justify-end">
-      <div class="badge badge-outline">#TecrübePaylasimi</div>
+      <div class="badge badge-outline"><a href="#">#TecrübePaylasimi</a></div>
     </div>
     </div>
   </div>
@@ -100,7 +100,7 @@ function Features() {
       </p>
       <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
       <div class="card-actions justify-end">
-      <div class="badge badge-outline">#Mezun</div> 
+      <div class="badge badge-outline"><a href="#">#Mezun</a></div> 
      
     </div>
     </div>
@@ -120,7 +120,7 @@ function Features() {
       </p>
       <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
       <div class="card-actions justify-end">
-      <div class="badge badge-outline">#Kariyer</div> 
+      <div class="badge badge-outline"><a href="#">#Kariyer</a></div> 
     </div>
     </div>
   </div>
@@ -142,7 +142,7 @@ function Features() {
       <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı
       </button>
       <div class="card-actions justify-end">
-      <div class="badge badge-outline">Kaan Özen</div> 
+      <div class="badge badge-outline"><a href="#">Kaan Özen</a></div> 
     </div>
     </div>
   </div>
@@ -161,7 +161,7 @@ function Features() {
       </p>
       <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
       <div class="card-actions justify-end">
-      <div class="badge badge-outline">Ali Deniz</div> 
+      <div class="badge badge-outline"><a href="#">Ali Deniz</a></div> 
     </div>
     </div>
   </div>
@@ -180,7 +180,7 @@ function Features() {
       </p>
       <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-cyan-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Devamı</button>
       <div class="card-actions justify-end">
-      <div class="badge badge-outline">Mehmet Demir</div> 
+      <div class="badge badge-outline"><a href="#">Mehmet Demir</a></div> 
     </div>
     </div>
   </div>

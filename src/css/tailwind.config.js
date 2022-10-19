@@ -18,6 +18,10 @@ module.exports = {
           800: '#333333',
           900: '#191919',
         },
+        inonu: {
+          100: '#2d3748',
+          200: '#5a7290',
+        },
         blue: {
           100: '#E6F0FD',
           200: '#CCE2FC',
@@ -125,6 +129,12 @@ module.exports = {
       zIndex: {
         '-1': '-1',
       },
+      backgroundImage: {
+        'hero': "url('./src/images/bg.svg')",
+      },
+      backgroundColor: {
+        'hero': '#5a7290',
+      }
     },
   },
   variants: {

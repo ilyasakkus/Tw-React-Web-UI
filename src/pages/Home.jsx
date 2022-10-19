@@ -16,7 +16,9 @@ function Home() {
       <main className="flex-grow">
 
         {/*  Page sections */}
+        <div class="bg-hero">
         <HeroHome />
+        </div>
         <div class="flex flex-col w-full">
   <div class="divider"></div> 
   <div class="divider" className='text-2xl body-font font-futura text-center'> Mezun Sayımız</div> 
