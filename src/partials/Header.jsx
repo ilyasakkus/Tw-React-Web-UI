@@ -86,10 +86,10 @@ function Header() {
         </li></ul>
     </div>
     <Link to="/" className="block w-full h-full" aria-label="İnönü">
-              <img className="w-auto" src="https://raw.githubusercontent.com/ilyasakkus/Tw-React-Web-UI/main/logo.png?token=GHSAT0AAAAAABZIIROVVRNZRYWMP4PNPAXEY2RFZIQ" alt="İnönü Mezun" />
+              <img className="w-auto" src="logo.png" alt="İnönü Mezun" />
             </Link>  </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal p-0">
+    <ul className="menu menu-horizontal pl-12">
     <li tabindex={0}>
         <a>
           Koordinatörlük

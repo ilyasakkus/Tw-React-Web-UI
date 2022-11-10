@@ -76,8 +76,8 @@ function HeroHome() {
     <span class="carousel-control-next-icon inline-block bg-no-repeat bg-black" aria-hidden="true"></span>
   </button>
 </div>
-<div class="bg-transparent col-span-auto w-full"><div class="flex justify-center w-full ">
-  <div class="block p-6 rounded-lg lg:shadow-xl focus:shadow-outline bg-gray-200 max-w-sm ">
+<div class="bg-transparent col-span-auto w-full "><div class="flex justify-center w-full">
+  <div class="block p-8 mb-4 rounded-lg shadow-xl shadow-gray-800/50 focus:shadow-outline bg-gray-200 max-w-sm">
     <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Mezun Kartı Talebi</h5>
     <p class="text-gray-700 text-base mb-4">
       Mezun kartınızı almak ve ayrıcalıklardan faydalanmak için hemen başvurun.
@@ -86,7 +86,7 @@ function HeroHome() {
   </div>
 </div>
 <br></br><div class="flex justify-center w-full">
-  <div class="block p-6 rounded-lg lg:shadow-xl focus:shadow-outline bg-gray-200 max-w-sm">
+  <div class="block p-8 mb-4 rounded-lg shadow-xl shadow-gray-800/50 focus:shadow-outline bg-gray-200 max-w-sm">
     <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2"> İNÜ Vakfına Bağış</h5>
     <p class="text-gray-700 text-base mb-4">
       Mezun öğrencilerimize destek olmak ister misiniz?
