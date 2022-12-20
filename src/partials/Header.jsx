@@ -85,69 +85,64 @@ function Header() {
           </ul>
         </li></ul>
     </div>
-    <Link to="/" className="block w-full h-full" aria-label="İnönü">
-              <img className="w-auto" src="logo.png" alt="İnönü Mezun" />
+    <Link to="/" aria-label="İnönü">
+              <img className='w-auto h-16' src="./src/images/logo-d.png"  alt="İnönü Mezun" />
             </Link>  </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal pl-12">
     <li tabindex={0}>
         <a>
-          Koordinatörlük
+          About
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Hakkımızda</a></li>
-          <li><a>Yönetim</a></li>
-          <li><a>Vizyon</a></li>
-          <li><a>Misyon</a></li>
-          <li><a>Organizasyon Şeması</a></li>
+          <li><a>Submenu</a></li>
+          <li><a>Submenu</a></li>
+          <li><a>Submenu</a></li>
+          <li><a>Submenu</a></li>
 
         </ul>
       </li>
       <li tabindex={0}>
         <a>
-          Mezun Portalı
-          <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+
+Portal          <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Mezun Bilgi Sistemi</a></li>
-          <li><a>Mezun Akademi</a></li>
-          <li><a>Mezun Platformu</a></li>
-          <li><a>İş ve Staj</a></li>
+          <li><a>Submenu</a></li>
+          <li><a>Submenu</a></li>
+          <li><a>Submenu</a></li>
+          <li><a>Submenu</a></li>
 
         </ul>
       </li>
 
       <li tabindex={0}>
         <a>
-          Hizmetler
+          Gallery
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Girişimcilik Merkezi</a></li>
-          <li><a>Mezun Belge Talep</a></li>
-          <li><a>Mezun Kimlik Kartı</a></li>
-          <li><a>Kariyer Destek</a></li>
-          <li><a>Sosyal Tesisler</a></li>
-          <li><a>Teknokent</a></li>
+          <li><a>Submenu</a></li>
+         
 
         </ul>
       </li>
       <li tabindex={0}>
         <a>
-          İNU Vakfı
+          Portflio
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-gray-200">
-          <li><a>Hakkında</a>
+          <li><a>Submenu</a>
           </li>
-          <li><a>Bağış Yap</a></li>
+          <li><a>Submenu</a></li>
         </ul>
       </li>    </ul>
   </div>
   <div className="navbar-end flex space-x-4 xs: text-xs sm:text-xs md:text-sm">
-    <a href="/" className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-3 rounded">Kayıt Ol</a>
-    <a href="/" className="bg-amber-500  hover:bg-amber-600 text-white font-bold py-2 px-3 rounded">Giriş Yap</a>
+    <a href="/" className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-3 rounded">Sign up</a>
+    <a href="/" className="bg-amber-500  hover:bg-amber-600 text-white font-bold py-2 px-3 rounded">Sign in</a>
 
   </div>
 </div>

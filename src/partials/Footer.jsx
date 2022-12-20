@@ -5,10 +5,10 @@ function Footer() {
   return (
 <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
   <div class="grid grid-flow-col gap-4">
-    <a href="#" class="link link-hover">İnönü Üniversitesi</a> 
-    <a href="#" class="link link-hover">Kariyer Merkezi</a>
-    <a href="#" class="link link-hover">İş İlanları</a> 
-    <a href="#" class="link link-hover">İletişim</a> 
+    <a href="#" class="link link-hover">About</a> 
+    <a href="#" class="link link-hover"> Portfolio</a>
+    <a href="#" class="link link-hover">Gallery</a> 
+    <a href="#" class="link link-hover">Contact</a> 
   </div> 
   <div>
     <div class="grid grid-flow-col gap-4">
@@ -18,7 +18,7 @@ function Footer() {
     </div>
   </div> 
   <div>
-    <p>Copyright © 2022 - Her hakkı saklıdır. İnönü Üniversitesi</p>
+    <p>Copyright © 2022 - All rights reserved. X Company</p>
   </div>
 </footer>
   );

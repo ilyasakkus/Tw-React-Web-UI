@@ -27,34 +27,34 @@ function HeroHome() {
   <div class="carousel-inner relative w-full overflow-hidden">
     <div class="carousel-item active relative float-left w-full">
       <img
-        src="https://admin.inonu.edu.tr/servlet/image/ModuleCarousel/744/02-11-2020_030914985_S3.JPG"
+        src="./src/images/hero-image.png"
         class="block w-full"
         alt="Motorbike Smoke"
       />
       <div class="carousel-caption hidden md:flex absolute py-1 mr-8 rounded-lg text-left ">
-        <h5 class="text-white text-3xl mb-4 ml-0 text-left bg-cyan-800 opacity-90  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">2022 Mezuniyet Töreni</h5>
+        <h5 class="text-white text-3xl mb-4 ml-0 text-left bg-cyan-800 opacity-90  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">2022 Caption 2022</h5>
       </div>
     </div>
 
     <div class="carousel-item relative float-left w-full">
       <img
-        src="https://admin.inonu.edu.tr/servlet/image/ModuleCarousel/3019/08-07-2022_085903165_S3.jpeg"
+        src="/src/images/hero-image.png"
         class="block w-full"
         alt="Mountaintop"
       />
       <div class="carousel-caption hidden md:flex absolute py-1 mx-4 mr-8 rounded-lg ">
-        <h5 class="text-white mb-4 ml-0 text-left bg-cyan-800 opacity-90  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">Mezuniyet Töreni - Ödül</h5>
+        <h5 class="text-white mb-4 ml-0 text-left bg-cyan-800 opacity-90  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">Caption  Sample</h5>
       </div>
     </div>
 
     <div class="carousel-item relative float-left w-full">
       <img
-        src="https://admin.inonu.edu.tr/servlet/image/ModuleCarousel/3014/06-07-2022_113843744_S3.jpeg"
+        src="/src/images/hero-image.png"
         class="block w-full"
         alt="Woman Reading a Book"
       />
       <div class="carousel-caption hidden md:flex absolute mr-8 py-1  ">
-        <h4 class="text-white text-3xl mb-4 ml-0 text-left bg-cyan-800 opacity-90 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">Ödül Töreni</h4>
+        <h4 class="text-white text-3xl mb-4 ml-0 text-left bg-cyan-800 opacity-90 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">Caption sample #2</h4>
       </div>
     </div>
   </div>
@@ -78,18 +78,19 @@ function HeroHome() {
 </div>
 <div class="bg-transparent col-span-auto w-full "><div class="flex justify-center w-full">
   <div class="block p-8 mb-4 rounded-lg shadow-xl shadow-gray-800/50 focus:shadow-outline bg-gray-200 max-w-sm">
-    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Mezun Kartı Talebi</h5>
+    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Bla Card </h5>
     <p class="text-gray-700 text-base mb-4">
-      Mezun kartınızı almak ve ayrıcalıklardan faydalanmak için hemen başvurun.
-    </p>
+    Lorem ipsum is placeholder text commonly used in the graphic and visual mockups.
+
+</p>
     <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Başvur!</button>
   </div>
 </div>
 <br></br><div class="flex justify-center w-full">
   <div class="block p-8 mb-4 rounded-lg shadow-xl shadow-gray-800/50 focus:shadow-outline bg-gray-200 max-w-sm">
-    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2"> İNÜ Vakfına Bağış</h5>
+    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2"> Donate us!</h5>
     <p class="text-gray-700 text-base mb-4">
-      Mezun öğrencilerimize destek olmak ister misiniz?
+    Lorem ipsum is placeholder text commonly used in the graphic and visual mockups.
     </p>
     <button type="button" class=" inline-block px-6 py-2.5 bg-cyan-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-800   hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"> Bağış Yap!</button>
   </div>
